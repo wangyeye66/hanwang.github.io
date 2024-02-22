@@ -2,57 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
     <title>Han's Portfolio</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: url('https://github.com/wangyeye66/hanwang.github.io/blob/main/wolfgang-hasselmann-pekwaCuv6kE-unsplash.jpg') no-repeat center center fixed;
-            background-size: cover;
-            color: #333;
-        }
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            background: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        }
-        h1 {
-            color: #0056b3;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul li {
-            margin-bottom: 10px;
-            background-color: #e7e7e7;
-            padding: 10px;
-            border-radius: 4px;
-        }
-        ul li a {
-            text-decoration: none;
-            color: #0056b3;
-            font-weight: bold;
-        }
-        ul li a:hover {
-            color: #004494;
-        }
-    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Hello,</h1>
-        <p>My name is Han. Here is my personal website</p>
-
+    <nav class="container-fluid">
         <ul>
-            <li><a href="https://www.linkedin.com/in/hanwang99">LinkedIn</a></li>
-            <li><a href="https://colab.research.google.com/github/wangyeye66/hanwang.github.io/blob/main/customer_clustering.ipynb">Clustering Project</a></li>
+            <li><strong>Han Wang</strong></li>
         </ul>
-    </div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="grid">
+            <section id="about">
+                <hgroup>
+                    <h2>Hello, I'm Han</h2>
+                    <h3>Welcome to my personal website</h3>
+                </hgroup>
+                <p>With a passion for data science and a knack for problem-solving, I've dedicated my career to unlocking insights through data. This portfolio showcases some of my most significant projects.</p>
+            </section>
+            <section id="projects">
+                <hgroup>
+                    <h2>Featured Projects</h2>
+                </hgroup>
+                <figure>
+                    <img src="https://unsplash.com/photos/nJX74kn1yn4" alt="Clustering Project">
+                    <figcaption><a href="https://colab.research.google.com/github/wangyeye66/hanwang.github.io/blob/main/customer_clustering.ipynb" target="_blank">Customer Clustering Project</a> - A deep dive into customer behavior segmentation.</figcaption>
+                </figure>
+            </section>
+            <section id="contact">
+                <h3>Contact</h3>
+                <p>Connect with me on <a href="https://www.linkedin.com/in/hanwang99" target="_blank">LinkedIn</a>.</p>
+            </section>
+        </div>
+    </main>
+    <footer class="container">
+        <small>
+            <a href="https://www.linkedin.com/in/hanwang99">LinkedIn</a>
+        </small>
+    </footer>
 </body>
 </html>
