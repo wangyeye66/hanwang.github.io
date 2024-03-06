@@ -1,0 +1,11 @@
+body {
+    background-image: url('https://unsplash.com/photos/an-aerial-view-of-a-body-of-water-onXEMfGJjuU');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
