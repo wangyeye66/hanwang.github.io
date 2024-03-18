@@ -37,6 +37,9 @@ padding: 0 20px;
     padding-bottom: 10px; /* Adds some space below the image */
 }
 
+.clearfix {
+    clear: both;
+}
 
 header {
     background: #333;
