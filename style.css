@@ -30,11 +30,13 @@ padding: 0 20px;
 .personal-photo {
     width: 150px; /* Adjust the width as necessary */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Optional: creates a round image */
+    border-radius: 0; /* Makes the image rectangular */
     display: block;
-    margin: 0 auto; /* Centers the image */
-    padding: 10px 0; /* Adds some space around the image */
+    float: left; /* Aligns the image to the left */
+    margin-right: 20px; /* Adds space to the right of the image */
+    padding-bottom: 10px; /* Adds some space below the image */
 }
+
 
 header {
     background: #333;
