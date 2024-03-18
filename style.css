@@ -38,6 +38,7 @@ header {
 
 header h1, header p {
     text-align: center;
+    color: #fff;
 }
 
 nav ul {
